@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Speech n Text</title>
+    <link rel="stylesheet" src="style.css">
+    <style>
+        body {
+            background: #141414;
+        }
+
+        #bs2t {
+            border-width: 2px;
+            border-radius: 30px;
+            background-color: aliceblue;
+            font-family: Tahoma;
+        }
+    </style>
+</head>
+
+<body class="text-white">
+
+    <div class="container text-center">
+        <div>
+            <label style="color: aliceblue; font-size: 50px;">Speech To Text</label>
+        </div>
+        <div class="form-group">
+            <textarea name="" id="textinput" class="form-control form-control-lg"
+                placeholder="Say 'Take my selfie...'"></textarea>
+        </div>
+        <button type="button" onclick="speechtext()" id="bs2t">Start</button>
+
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
